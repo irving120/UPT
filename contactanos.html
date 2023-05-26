@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPT | Tecamac</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <Hr>
+    <center class="navegar">
+        <marquee class="mar" width="1200" height="65">
+            <b>
+                <i>
+                    <h4>UNIVERSIDAD POLITECNICA DE TECAMAC </h4>
+                </i>
+            </b>
+        </marquee>
+    </center>
+    <Hr>
+        <center class="navegar">
+            <div class="barrainicio">
+                <div>
+                    <img src="img/contacto.png" alt="" class="separaricon2">
+                </div>
+                <div class="separarini">
+                    <a href="index.html" class="link tex1">inicio</a>
+                </div>
+                <div class="separarini">
+                    <a href="mision.html" class="link tex1">mision</a>
+                </div>
+                <div class="separarini">
+                    <a href="vision.html" class="link tex1">vision</a>
+                </div>
+                <div class="separarini">
+                    <a href="valores.html" class="link tex1">VALORES</a>
+                </div>
+                <div class="separarini">
+                    <a href="organigrama.html" class="link tex1">organigrama</a>
+                </div>
+                <div class="separarini">
+                    <a href="contactanos.html" class="link tex1">contactanos</a>
+                </div>
+                <div class="separarini">
+                    <a href="ubicacion.html" class="link tex1">ubicacion</a>
+                </div>
+                <div class="separarini">
+                    <a href="instalaciones.html" class="link tex1">instalaciones</a>
+                </div>
+            </div>
+        </center>
+    <div>
+    <br>
+
+    <div>
+        <b>
+            <center>
+                <font size="6">
+                    <p class="tex1">CONTACTANOS:</p>
+                </font>
+            </center>
+        </b>
+    </div>
+    <div>
+        <center>
+            <label >
+                <p class="conc"> NUMERO TELEFONICO:</p>
+                <br>
+                
+                    <a href="tel:+5524175850" class="num">5524175850</a>
+                
+                <br>
+                <h3 class="conc">FORMULARIO: </h3>
+            </label>
+        </center> 
+    </div>
+
+    <br>
+    <center >
+        <div class="navegar conc" >
+            <form action="https://formsubmit.co/irvingd901@gmail.com" method="POST">
+                <label>
+                    NOMBRE: <br>
+                    <input type="text" name="name" required>
+                </label >
+                <br>
+                <br>
+                <label>
+                    EMAIL: <br>
+                    <input type="email" name="email" required>
+                </label>
+                <br>
+                <br>
+                <label>
+                    ASUNTO: <br>
+                    <input type="text" name="asunto" required>
+                </label>
+                <br>
+                <br>
+                <label>
+                    COMENTARIO: <br><br>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" required class="ms"></textarea>
+                </label>
+                <br>
+                <br>
+                <button type="submit" onclick="msj();">ENVIAR</button>
+                <br>
+                <br>
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+        </div>
+    </center>
+    <script>
+        function msj(){
+            alert("MENSAJE ENVIADO EXITOSAMENTE, TE CONTACTAREMOS");
+        }
+    </script>
+        
+            
+</body>
